@@ -21,7 +21,7 @@ public class OtherSiteRedirectServlet extends HttpServlet {
         // forward 와 redirect 의 가장 큰 차이점은
         //url의 변화 여부이다
         // forward 의 경우 기존 request 를 받은 url이 그대로 이어가지만
-        // redirect 의 경우 redirect로 연결된 최종의 url을 제공한다
+        // redirect 의 경우 redirect로 연결된 최종의 url을 제공한다=>새로운 request를 생성한다고 볼수 있다
 
         /*필기.
         *  netwrok tap을 확인해보면 302번 코드와 함께
